@@ -1,0 +1,46 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title  %}Hakkımda {% endblock %}
+{% block content %}
+    <div class="breadcumb-area" style="background-color: #828282;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content text-center" >
+                        <h2 style="background-color: #ffffff;color: black;">Hakkımda</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Blog Wrapper Start ##### -->
+    <div class="blog-wrapper  clearfix">
+        <div class="container">
+            <div class="row align-items-lg-start">
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-8" style="margin-top: 0;">
+                    <div class="single-blog-area clearfix" style="margin-top: 0;">
+                        <!-- Blog Content -->
+                        <div class="single-blog-content" style="margin-top: 0;">
+                            <div class="line"></div>
+                            <a href="#" class="post-tag">Fatih Karagöz</a>
+                            <h4><a href="#" class="post-headline">Kişisel Web Siteme Hoşgeldiniz</a></h4>
+                            <p class="mb-3">Ben Fatih Karagöz. Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği Bölümü mezunuyum. Freelance olarak web sitesi/web uygulamaları gibi işler yapmaktayım. Yönetim uygulamaları konusunda tecrübem vardır. Yazılımlarımı Django Framework'ü ile Python dilinde yazmaktayım Wordpress gibi hazır uygulamalar kullanmıyorum. İşinize kurum/kuruluşunuza özel web siteleri ve uygulamalar konusunda desteğinize hazırım. </p>
+                            <p> (+90) 507 710 2084</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-catagory-area clearfix mb-100 ml-30">
+                            <img style="max-height: 400px;" src="{% static 'assets/img/core-img/fatihkaragoz.jpeg' %}">
+                        <!-- Catagory Title -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
